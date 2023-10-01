@@ -2,7 +2,7 @@ import { useRouteError } from "react-router-dom";
 
 export default function ErrorPage(){
     const error = useRouteError()
-    console.error(error.message)
+    console.log(error.message)
 
     return(
         <div className="space-y-8">
